@@ -22,7 +22,7 @@ void false_position(long double p,long double q)
     if(func(x)==0.0)
         break;
 
-    if(func(x)*func(p)>0.0)
+    if(func(x)*func(p)<0.0)
     {
        q=x;
     }
