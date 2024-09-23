@@ -18,7 +18,7 @@ ld secant()
 {
     ld x1,x2,x3=0,f1,f2,count=0;
     x1=0,x2=5;
-    while(1)
+    while(true)
     {
         count++;
         f1=func(x1);
