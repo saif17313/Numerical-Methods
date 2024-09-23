@@ -12,7 +12,7 @@ long double func(long double x)
 
 void bisection(long double p,long double q)
 {
-    long double x=p,x1=0,d=1000;
+    long double x,x1=0,d=1000;
     int count=0;
     time_t start,end;
     time(&start);
@@ -34,8 +34,6 @@ void bisection(long double p,long double q)
     }
     d=abs(x-x1);
     x1=x;
-    cout<<setprecision(10)<<fixed;
-    cout<<d<<endl;
     }
     cout<<setprecision(10)<<fixed;
     cout<<"The value is : "<<x<<endl;
