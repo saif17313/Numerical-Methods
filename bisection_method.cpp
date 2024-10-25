@@ -14,8 +14,6 @@ void bisection(long double p,long double q)
 {
     long double x,x1=0,d=1000;
     int count=0;
-    time_t start,end;
-    time(&start);
     while(d>0.0001)
     {
        count++;
